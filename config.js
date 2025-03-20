@@ -61,19 +61,19 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://webmail.telecom.pt/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'JIRA',
+			icon: 'bug',
+			link: 'https://alabs.atlassian.net/jira/dashboards/10249',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Ingira',
+			icon: 'calendar-clock',
+			link: 'https://outsoft.pt:3000/ingira/login',
 		},
 		{
 			id: '5',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'ABC Wizard',
+			icon: 'wand-sparkles',
+			link: 'http://10.112.26.41:8888/',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'briefcase-business',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Jira',
+					link: 'https://alabs.atlassian.net/jira/dashboards/10249',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Wiki',
+					link: 'https://alabs.atlassian.net/wiki/spaces/SEC/overview',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Planview',
+					link: 'http://planview.ptin.corppt.com/planview/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Fisheye',
+					link: 'http://fisheye.ptin.corppt.com/user/josue-a-silverio?name=josue-a-silverio&max=30&view=fe',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'bot',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'ChatGPT',
+					link: 'https://chatgpt.com/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Claude',
+					link: 'https://claude.ai/new',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'DeepSeek',
+					link: 'https://chat.deepseek.com/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'NotebookLM',
+					link: 'https://notebooklm.google.com/?pli=1',
 				},
 			],
 		},
